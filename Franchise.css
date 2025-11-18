@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container-fluid{
+    height: 80px;
+    width: 100%;
+    background-color: orangered;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.container-fluid img{
+    height: 150px;
+    width: 100px;
+    animation: spin 2s infinite;
+}
+@keyframes spin{
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}
+.collapse a{
+    color: black;
+    font-size: 18px;
+}
+.img-1 img{
+    height: 500px;
+    width: 100%;
+}
+.img-2{
+    height: 400px;
+    width: 400px;
+}
+.img-2 img{
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+}
+.fran{
+position: relative;
+width: 900px;
+height: 500px;
+left: 600px;
+bottom: 400px;
+background-color: orangered;
+}
+.pa1{
+    font-size: 30px;
+    background-color: orangered;
+    font-family: 'calibri';
+    font-weight: 600;
+    bottom: 300px;
+    position: relative;
+}
+.box1{
+    position: relative;
+    bottom: 250px;
+    left: 200px;
+
+}
+.box1 img{
+    height: 300px;
+    width: 300px;
+}
+.card-group{
+    height: 300px;
+    width: 300px;
+}
+.box2{
+    position: relative;
+    bottom: 250px;
+    left: 500px;
+
+}
+.box2 img{
+    height: 300px;
+    width: 300px;
+}.box3{
+    position: relative;
+    bottom: 250px;
+    left: 800px;
+
+}
+.box3 img{
+    height: 300px;
+    width: 300px;
+}
+.card-body{
+    width: 300px;
+}
+.foot{
+    background-color: orangered;
+    height: 350px;
+    position: relative;
+    top: 180px;
+}
+.list-unstyled li a{
+    text-decoration: none;
+}
+.ft{
+    height: 80px;
+    width: 80px;
+}
+.ani{
+    animation:  shake 0.5s ease-in-out infinite;
+}
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+

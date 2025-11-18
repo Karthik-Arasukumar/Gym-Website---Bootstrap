@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container-fluid{
+    height: 80px;
+    width: 100%;
+    background-color: orangered;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.container-fluid img{
+    height: 150px;
+    width: 100px;
+    animation: spin 2s infinite;
+}
+@keyframes spin{
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}
+.img-1 img{
+    height: 500px;
+    width: 100%;
+}
+.bo1{
+    border: 1px solid black;
+    height: 250px;
+    width: 800px;
+    position: absolute;
+    left: 380px;
+    top: 450px;
+    background-color: orangered;
+    opacity: 75%;
+}
+.tag{
+    color: black;
+}
+h2 {
+  color: #343a40;
+}
+
+ul {
+  padding-left: 1rem;
+}
+.ratio{
+    height: 400px;
+    width: 450px;
+    position: relative;
+    left: 900px;
+    bottom: 200px;
+}
+.texx{
+    position: relative;
+    top: 180px;
+
+}
+h6{
+    display: inline;
+}
+.foot{
+    background-color: orangered;
+    height: 350px;
+    position: relative;
+    
+}
+.list-unstyled li a{
+    text-decoration: none;
+}
+.ft{
+    height: 80px;
+    width: 80px;
+}
